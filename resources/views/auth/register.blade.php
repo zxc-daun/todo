@@ -119,19 +119,19 @@
             <span><i class="icon icon-user"></i></span>
         </div>
         <div class="form-group">
-            <input type="text" class="form-control item" id="name" placeholder="name" required>
+            <input type="text" class="form-control item" id="name" placeholder="name" name="name" required>
         </div>
         <div class="form-group">
-            <input type="email" class="form-control item" id="email" placeholder="email" required>
+            <input type="email" class="form-control item" id="email" placeholder="email" name="email" required>
         </div>
         <div class="form-group">
-            <input type="password" class="form-control item" id="password" placeholder="password" required>
+            <input type="password" class="form-control item" id="password" placeholder="password"  name="password" required>
         </div>
         <div class="form-group">
-            <input type="password" class="form-control item" id="password" placeholder="password" required>
+            <input type="password" class="form-control item" id="password" placeholder="password" name="confirm_password" required>
         </div>
         <div class="form-group">
-            <button type="button" class="btn btn-block create-account">Create Account</button>
+            <input type="submit" class="btn btn-block create-account" placeholder="Create Accoutn"/>
         </div>
     </form>
     <div class="social-media">

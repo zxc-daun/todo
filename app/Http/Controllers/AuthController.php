@@ -21,7 +21,7 @@ class AuthController extends Controller
     }
 
     public function login(AuthorizeRequest $request){
-        $credentials = $request->only('eamil', 'password');
+        $credentials = $request->only('email', 'password');
 
         if(Auth::attempt($credentials)){
             $todos = Todo::with('category')->get();
