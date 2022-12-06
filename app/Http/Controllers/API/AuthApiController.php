@@ -3,7 +3,7 @@
 namespace App\Http\Controllers\API;
 
 use App\Http\Controllers\Controller;
-use http\Client\Curl\User;
+use App\Models\User;
 use http\Env\Response;
 use Illuminate\Http\Request;
 use phpseclib3\Crypt\Hash;
